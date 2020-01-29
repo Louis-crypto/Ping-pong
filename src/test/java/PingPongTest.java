@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class PingPongTest {
 
     @Test
-    public void runPinPong_countUpToOne_ArrayList() {
+    public void runPingPong_countUpToOne_ArrayList() {
         PingPong testPingPong = new PingPong();
         List<Object> expectedOutput = new ArrayList<Object>();
         expectedOutput.add(1);
